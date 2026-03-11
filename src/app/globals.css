@@ -1,0 +1,77 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  --color-primary: #2563EB;
+  --color-primary-dark: #1D4ED8;
+  --color-primary-light: #EFF6FF;
+  --color-hmi-footer: #004B87;
+  --color-hmi-gray-50: #F9FAFB;
+  --color-hmi-gray-100: #F3F4F6;
+  --color-hmi-gray-200: #E5E7EB;
+  --color-hmi-gray-300: #D1D5DB;
+  --color-hmi-gray-500: #6B7280;
+  --color-hmi-gray-700: #374151;
+  --color-hmi-gray-900: #111827;
+
+  --breakpoint-desktop: 1201px;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+.hmi-gradient-text {
+  background-image: linear-gradient(to right, #0957CB 20%, #00AEEF 58%, #00D494 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
+
+/* === Our Specialists Section === */
+.specialists-bg {
+  right: 0;
+  border-top-right-radius: 0;
+}
+.specialists-container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+@media (min-width: 768px) {
+  .specialists-bg {
+    right: max(0px, calc(44.64vw - 371px));
+    border-top-right-radius: 120px;
+  }
+  .specialists-container {
+    padding-left: max(70px, calc(44.64vw - 431px));
+    padding-right: 80px;
+  }
+}
+@media (min-width: 1080px) {
+  .specialists-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 128px;
+  }
+}
+
+/* === Sharing Insights Section === */
+.insights-desktop {
+  display: none;
+}
+.insights-mobile {
+  display: flex;
+}
+@media (min-width: 1025px) {
+  .insights-desktop {
+    display: flex;
+  }
+  .insights-mobile {
+    display: none;
+  }
+}
