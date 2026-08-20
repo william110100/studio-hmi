@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "首页",
+    "tabTransactions": "交易记录",
+    "tabTransfer": "转账",
+    "tabCards": "卡片",
+    "tabProfile": "我的",
+    "comingSoonTitle": "即将推出",
+    "comingSoonSubtitle": "此功能尚未包含在本次构建中。",
+    "back": "返回"
+  },
+  "list": {
+    "title": "交易记录",
+    "subtitle": "您的近期活动",
+    "filterAll": "全部",
+    "filterIncoming": "收入",
+    "filterOutgoing": "支出",
+    "searchPlaceholder": "搜索交易记录",
+    "emptyTitle": "暂无交易记录",
+    "emptySubtitle": "开始转账或收款后，记录将显示在这里。",
+    "loading": "正在加载交易记录…",
+    "monthOctober2024": "2024年10月",
+    "monthSeptember2024": "2024年9月",
+    "monthAugust2024": "2024年8月",
+    "noResultsTitle": "未找到匹配的交易",
+    "noResultsSubtitle": "请尝试其他搜索词或筛选条件。"
+  },
+  "item": {
+    "salaryPayment": "工资入账",
+    "invoicePayment": "发票付款",
+    "refund": "退款",
+    "bonusPayment": "奖金入账",
+    "from": "来自",
+    "to": "转至"
+  },
+  "detail": {
+    "title": "交易详情",
+    "statusCompleted": "已完成",
+    "sectionInfo": "转账信息",
+    "labelReferenceId": "参考编号",
+    "labelDateTime": "日期与时间",
+    "labelRecipient": "收款人",
+    "labelTransferType": "转账类型",
+    "labelAmount": "金额",
+    "btnShare": "分享收据",
+    "btnCopy": "复制参考编号",
+    "toastCopied": "参考编号已复制",
+    "notFoundTitle": "未找到该交易",
+    "notFoundSubtitle": "该交易可能已被移除。"
+  },
+  "share": {
+    "title": "分享方式",
+    "optionMessage": "短信",
+    "optionMail": "邮件",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "复制链接",
+    "optionMore": "更多"
+  },
+  "language": {
+    "title": "语言",
+    "subtitle": "选择您偏好的语言"
+  },
+  "error": {
+    "title": "出错了",
+    "subtitle": "无法加载您的交易记录，请重试。",
+    "retry": "重试"
+  },
+  "a11y": {
+    "plus": "加",
+    "minus": "减",
+    "credited": "已入账",
+    "debited": "已扣除",
+    "statusLabel": "状态：{{status}}",
+    "copyReferenceId": "复制参考编号 {{value}}"
+  }
+}

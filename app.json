@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "AEON Bank",
+    "slug": "aeon-bank-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "aeonbank",
+    "userInterfaceStyle": "automatic",
+    "primaryColor": "#E4166B",
+    "backgroundColor": "#F7F5F7",
+    "ios": {
+      "icon": "./assets/images/icon.png",
+      "supportsTablet": false,
+      "bundleIdentifier": "com.aeonbank.mobile.takehome"
+    },
+    "android": {
+      "package": "com.aeonbank.mobile.takehome",
+      "adaptiveIcon": {
+        "backgroundColor": "#E4166B",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#E4166B",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 160
+        }
+      ],
+      "expo-status-bar",
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}

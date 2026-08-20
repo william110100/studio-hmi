@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "Beranda",
+    "tabTransactions": "Transaksi",
+    "tabTransfer": "Transfer",
+    "tabCards": "Kartu",
+    "tabProfile": "Profil",
+    "comingSoonTitle": "Segera hadir",
+    "comingSoonSubtitle": "Bagian ini belum tersedia di versi ini.",
+    "back": "Kembali"
+  },
+  "list": {
+    "title": "Transaksi",
+    "subtitle": "Aktivitas terbaru Anda",
+    "filterAll": "Semua",
+    "filterIncoming": "Masuk",
+    "filterOutgoing": "Keluar",
+    "searchPlaceholder": "Cari transaksi",
+    "emptyTitle": "Belum ada transaksi",
+    "emptySubtitle": "Riwayat transaksi Anda akan muncul di sini setelah Anda mengirim atau menerima uang.",
+    "loading": "Memuat transaksi...",
+    "monthOctober2024": "Oktober 2024",
+    "monthSeptember2024": "September 2024",
+    "monthAugust2024": "Agustus 2024",
+    "noResultsTitle": "Transaksi tidak ditemukan",
+    "noResultsSubtitle": "Coba kata kunci atau filter lain."
+  },
+  "item": {
+    "salaryPayment": "Pembayaran Gaji",
+    "invoicePayment": "Pembayaran Faktur",
+    "refund": "Pengembalian Dana",
+    "bonusPayment": "Pembayaran Bonus",
+    "from": "Dari",
+    "to": "Ke"
+  },
+  "detail": {
+    "title": "Detail Transaksi",
+    "statusCompleted": "Selesai",
+    "sectionInfo": "Informasi Transfer",
+    "labelReferenceId": "ID Referensi",
+    "labelDateTime": "Tanggal & Waktu",
+    "labelRecipient": "Penerima",
+    "labelTransferType": "Jenis Transfer",
+    "labelAmount": "Jumlah",
+    "btnShare": "Bagikan Struk",
+    "btnCopy": "Salin ID Referensi",
+    "toastCopied": "ID Referensi disalin",
+    "notFoundTitle": "Transaksi tidak ditemukan",
+    "notFoundSubtitle": "Transaksi ini mungkin telah dihapus."
+  },
+  "share": {
+    "title": "Bagikan via",
+    "optionMessage": "Pesan",
+    "optionMail": "Email",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "Salin Tautan",
+    "optionMore": "Lainnya"
+  },
+  "language": {
+    "title": "Bahasa",
+    "subtitle": "Pilih bahasa pilihan Anda"
+  },
+  "error": {
+    "title": "Terjadi kesalahan",
+    "subtitle": "Transaksi Anda gagal dimuat. Silakan coba lagi.",
+    "retry": "Coba Lagi"
+  },
+  "a11y": {
+    "plus": "tambah",
+    "minus": "kurang",
+    "credited": "dikreditkan",
+    "debited": "didebit",
+    "statusLabel": "Status: {{status}}",
+    "copyReferenceId": "Salin ID Referensi {{value}}"
+  }
+}

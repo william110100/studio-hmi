@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "홈",
+    "tabTransactions": "거래내역",
+    "tabTransfer": "송금",
+    "tabCards": "카드",
+    "tabProfile": "프로필",
+    "comingSoonTitle": "곧 제공됩니다",
+    "comingSoonSubtitle": "이 섹션은 이번 빌드에 아직 포함되지 않았습니다.",
+    "back": "뒤로"
+  },
+  "list": {
+    "title": "거래내역",
+    "subtitle": "최근 거래 내역",
+    "filterAll": "전체",
+    "filterIncoming": "입금",
+    "filterOutgoing": "출금",
+    "searchPlaceholder": "거래내역 검색",
+    "emptyTitle": "거래 내역이 없습니다",
+    "emptySubtitle": "송금 또는 입금을 시작하면 거래 내역이 여기에 표시됩니다.",
+    "loading": "거래내역 불러오는 중...",
+    "monthOctober2024": "2024년 10월",
+    "monthSeptember2024": "2024년 9월",
+    "monthAugust2024": "2024년 8월",
+    "noResultsTitle": "일치하는 거래가 없습니다",
+    "noResultsSubtitle": "다른 검색어나 필터를 시도해 보세요."
+  },
+  "item": {
+    "salaryPayment": "급여 지급",
+    "invoicePayment": "인보이스 결제",
+    "refund": "환불",
+    "bonusPayment": "보너스 지급",
+    "from": "보낸 사람",
+    "to": "받는 사람"
+  },
+  "detail": {
+    "title": "거래 상세정보",
+    "statusCompleted": "완료",
+    "sectionInfo": "송금 정보",
+    "labelReferenceId": "참조번호",
+    "labelDateTime": "일시",
+    "labelRecipient": "수취인",
+    "labelTransferType": "송금 유형",
+    "labelAmount": "금액",
+    "btnShare": "영수증 공유",
+    "btnCopy": "참조번호 복사",
+    "toastCopied": "참조번호가 복사되었습니다",
+    "notFoundTitle": "거래를 찾을 수 없습니다",
+    "notFoundSubtitle": "이 거래는 삭제되었을 수 있습니다."
+  },
+  "share": {
+    "title": "공유하기",
+    "optionMessage": "메시지",
+    "optionMail": "메일",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "링크 복사",
+    "optionMore": "더보기"
+  },
+  "language": {
+    "title": "언어",
+    "subtitle": "선호하는 언어를 선택하세요"
+  },
+  "error": {
+    "title": "오류가 발생했습니다",
+    "subtitle": "거래 내역을 불러오지 못했습니다. 다시 시도해 주세요.",
+    "retry": "다시 시도"
+  },
+  "a11y": {
+    "plus": "플러스",
+    "minus": "마이너스",
+    "credited": "입금됨",
+    "debited": "출금됨",
+    "statusLabel": "상태: {{status}}",
+    "copyReferenceId": "참조번호 {{value}} 복사"
+  }
+}

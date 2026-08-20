@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "Home",
+    "tabTransactions": "Transactions",
+    "tabTransfer": "Transfer",
+    "tabCards": "Cards",
+    "tabProfile": "Profile",
+    "comingSoonTitle": "Coming soon",
+    "comingSoonSubtitle": "This section isn't part of this build yet.",
+    "back": "Back"
+  },
+  "list": {
+    "title": "Transactions",
+    "subtitle": "Your recent activity",
+    "filterAll": "All",
+    "filterIncoming": "Incoming",
+    "filterOutgoing": "Outgoing",
+    "searchPlaceholder": "Search transactions",
+    "emptyTitle": "No transactions yet",
+    "emptySubtitle": "Your transaction history will show up here once you start sending or receiving money.",
+    "loading": "Loading transactions...",
+    "monthOctober2024": "October 2024",
+    "monthSeptember2024": "September 2024",
+    "monthAugust2024": "August 2024",
+    "noResultsTitle": "No matching transactions",
+    "noResultsSubtitle": "Try a different search or filter."
+  },
+  "item": {
+    "salaryPayment": "Salary Payment",
+    "invoicePayment": "Invoice Payment",
+    "refund": "Refund",
+    "bonusPayment": "Bonus Payment",
+    "from": "From",
+    "to": "To"
+  },
+  "detail": {
+    "title": "Transaction Details",
+    "statusCompleted": "Completed",
+    "sectionInfo": "Transfer Information",
+    "labelReferenceId": "Reference ID",
+    "labelDateTime": "Date & Time",
+    "labelRecipient": "Recipient",
+    "labelTransferType": "Transfer Type",
+    "labelAmount": "Amount",
+    "btnShare": "Share Receipt",
+    "btnCopy": "Copy Reference ID",
+    "toastCopied": "Reference ID copied",
+    "notFoundTitle": "Transaction not found",
+    "notFoundSubtitle": "This transaction may have been removed."
+  },
+  "share": {
+    "title": "Share via",
+    "optionMessage": "Message",
+    "optionMail": "Mail",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "Copy Link",
+    "optionMore": "More"
+  },
+  "language": {
+    "title": "Language",
+    "subtitle": "Choose your preferred language"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "subtitle": "We couldn't load your transactions. Please try again.",
+    "retry": "Retry"
+  },
+  "a11y": {
+    "plus": "plus",
+    "minus": "minus",
+    "credited": "credited",
+    "debited": "debited",
+    "statusLabel": "Status: {{status}}",
+    "copyReferenceId": "Copy reference ID {{value}}"
+  }
+}

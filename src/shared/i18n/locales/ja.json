@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "ホーム",
+    "tabTransactions": "取引履歴",
+    "tabTransfer": "振込",
+    "tabCards": "カード",
+    "tabProfile": "プロフィール",
+    "comingSoonTitle": "近日公開",
+    "comingSoonSubtitle": "この機能は今回のビルドにはまだ含まれていません。",
+    "back": "戻る"
+  },
+  "list": {
+    "title": "取引履歴",
+    "subtitle": "最近の取引",
+    "filterAll": "すべて",
+    "filterIncoming": "受取",
+    "filterOutgoing": "送金",
+    "searchPlaceholder": "取引を検索",
+    "emptyTitle": "取引履歴がありません",
+    "emptySubtitle": "送金や受取を行うと、ここに履歴が表示されます。",
+    "loading": "取引を読み込み中...",
+    "monthOctober2024": "2024年10月",
+    "monthSeptember2024": "2024年9月",
+    "monthAugust2024": "2024年8月",
+    "noResultsTitle": "該当する取引がありません",
+    "noResultsSubtitle": "別のキーワードやフィルターをお試しください。"
+  },
+  "item": {
+    "salaryPayment": "給与振込",
+    "invoicePayment": "請求書支払い",
+    "refund": "返金",
+    "bonusPayment": "ボーナス支給",
+    "from": "送金元",
+    "to": "送金先"
+  },
+  "detail": {
+    "title": "取引詳細",
+    "statusCompleted": "完了",
+    "sectionInfo": "振込情報",
+    "labelReferenceId": "参照番号",
+    "labelDateTime": "日時",
+    "labelRecipient": "受取人",
+    "labelTransferType": "振込種別",
+    "labelAmount": "金額",
+    "btnShare": "領収書を共有",
+    "btnCopy": "参照番号をコピー",
+    "toastCopied": "参照番号をコピーしました",
+    "notFoundTitle": "取引が見つかりません",
+    "notFoundSubtitle": "この取引は削除された可能性があります。"
+  },
+  "share": {
+    "title": "共有方法を選択",
+    "optionMessage": "メッセージ",
+    "optionMail": "メール",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "リンクをコピー",
+    "optionMore": "その他"
+  },
+  "language": {
+    "title": "言語",
+    "subtitle": "使用する言語を選択してください"
+  },
+  "error": {
+    "title": "エラーが発生しました",
+    "subtitle": "取引情報を読み込めませんでした。もう一度お試しください。",
+    "retry": "再試行"
+  },
+  "a11y": {
+    "plus": "プラス",
+    "minus": "マイナス",
+    "credited": "入金",
+    "debited": "出金",
+    "statusLabel": "ステータス：{{status}}",
+    "copyReferenceId": "参照番号 {{value}} をコピー"
+  }
+}

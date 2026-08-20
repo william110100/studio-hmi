@@ -1,0 +1,77 @@
+{
+  "common": {
+    "appName": "AEON Bank",
+    "tabHome": "Utama",
+    "tabTransactions": "Transaksi",
+    "tabTransfer": "Pindahan",
+    "tabCards": "Kad",
+    "tabProfile": "Profil",
+    "comingSoonTitle": "Akan datang",
+    "comingSoonSubtitle": "Bahagian ini belum tersedia dalam bina ini.",
+    "back": "Kembali"
+  },
+  "list": {
+    "title": "Transaksi",
+    "subtitle": "Aktiviti terkini anda",
+    "filterAll": "Semua",
+    "filterIncoming": "Masuk",
+    "filterOutgoing": "Keluar",
+    "searchPlaceholder": "Cari transaksi",
+    "emptyTitle": "Belum ada transaksi",
+    "emptySubtitle": "Sejarah transaksi anda akan dipaparkan di sini selepas anda mula menghantar atau menerima wang.",
+    "loading": "Memuatkan transaksi...",
+    "monthOctober2024": "Oktober 2024",
+    "monthSeptember2024": "September 2024",
+    "monthAugust2024": "Ogos 2024",
+    "noResultsTitle": "Tiada transaksi sepadan",
+    "noResultsSubtitle": "Cuba carian atau penapis lain."
+  },
+  "item": {
+    "salaryPayment": "Pembayaran Gaji",
+    "invoicePayment": "Pembayaran Invois",
+    "refund": "Bayaran Balik",
+    "bonusPayment": "Pembayaran Bonus",
+    "from": "Daripada",
+    "to": "Kepada"
+  },
+  "detail": {
+    "title": "Butiran Transaksi",
+    "statusCompleted": "Selesai",
+    "sectionInfo": "Maklumat Pindahan",
+    "labelReferenceId": "ID Rujukan",
+    "labelDateTime": "Tarikh & Masa",
+    "labelRecipient": "Penerima",
+    "labelTransferType": "Jenis Pindahan",
+    "labelAmount": "Jumlah",
+    "btnShare": "Kongsi Resit",
+    "btnCopy": "Salin ID Rujukan",
+    "toastCopied": "ID Rujukan disalin",
+    "notFoundTitle": "Transaksi tidak dijumpai",
+    "notFoundSubtitle": "Transaksi ini mungkin telah dialih keluar."
+  },
+  "share": {
+    "title": "Kongsi melalui",
+    "optionMessage": "Mesej",
+    "optionMail": "E-mel",
+    "optionWhatsapp": "WhatsApp",
+    "optionCopyLink": "Salin Pautan",
+    "optionMore": "Lagi"
+  },
+  "language": {
+    "title": "Bahasa",
+    "subtitle": "Pilih bahasa pilihan anda"
+  },
+  "error": {
+    "title": "Ralat berlaku",
+    "subtitle": "Transaksi anda gagal dimuatkan. Sila cuba lagi.",
+    "retry": "Cuba Lagi"
+  },
+  "a11y": {
+    "plus": "tambah",
+    "minus": "tolak",
+    "credited": "dikreditkan",
+    "debited": "didebit",
+    "statusLabel": "Status: {{status}}",
+    "copyReferenceId": "Salin ID Rujukan {{value}}"
+  }
+}
